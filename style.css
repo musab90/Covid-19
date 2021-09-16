@@ -1,3 +1,4 @@
+
 .container{
     width: 100%;
     height: 80vh;
@@ -71,6 +72,9 @@ ul li a:hover{
 
 
 @media screen and (max-width:320px) {
+    body{
+        display: block;
+    }
     #myChart{
         flex-direction: column;
         height: 100%;
@@ -85,6 +89,9 @@ ul li a:hover{
     }
 }
 @media screen and (max-width:375px) {
+    body{
+        display: block;
+    }
     #myChart{
         flex-direction: column;
         height: 100%;
@@ -99,6 +106,9 @@ ul li a:hover{
     }
 }
 @media screen and (max-width:425px) {
+    body{
+        display: block;
+    }
     #myChart{
         flex-direction: column;
         height: 100%;
