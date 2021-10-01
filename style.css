@@ -25,6 +25,7 @@ footer{
     color: black;
     cursor: pointer;
     margin-top: 2%;
+    width: 100%;
     
 }
 .cole{
@@ -124,4 +125,18 @@ ul li a:hover{
         text-align: center;
         font-size: 1rem;
     }
+}
+@media screen and (max-width:400px) {
+    body{
+        overflow: visible;
+      
+    }
+    footer{
+        width: 120%;
+        
+    }
+    .sub{
+        width: 110%;
+    }
+   
 }
